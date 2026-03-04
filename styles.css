@@ -1,0 +1,278 @@
+/* styles.css */
+iframe{
+    min-height: 60vh;
+}
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #000000;
+  --accent: #2563eb;     /* azul principal */
+  --accent-light: #3b82f6;
+  --bg: #ffffff;
+  --text: #111827;
+  --text-light: #4b5563;
+  --border: #e5e7eb;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Evita zoom indesejado em inputs no iOS */
+input, textarea, select {
+  font-size: 16px; /* mínimo 16px evita zoom automático no iOS */
+}
+
+/* Cabeçalho fixo */
+header {
+  background-color: white;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* Landing page */
+#landing {
+  padding: 2rem 1rem;
+}
+
+.animate-bounce-once {
+  animation: bounceOnce 1.2s ease-in-out;
+}
+
+@keyframes bounceOnce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Cards e passos */
+.how-step {
+  transition: all 0.3s ease;
+  border-radius: 1.5rem;
+  background: white;
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+}
+
+.how-step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+#categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+#categories-grid > div {
+  transition: all 0.25s ease;
+  border-radius: 1.5rem;
+  padding: 1.25rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  border: 2px solid var(--border);
+  background: white;
+  text-align: center;
+}
+
+#categories-grid > div.selected {
+  border-color: var(--accent);
+  background-color: #eff6ff;
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.2);
+}
+
+/* Perfil / Home */
+section#home .rounded-3xl {
+  border-radius: 2rem;
+}
+
+input, select {
+  border-radius: 1rem;
+  border: 1px solid #d1d5db;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+}
+
+/* Explore / Mapa */
+#explore {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#category-tabs {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.75rem 1rem;
+  scrollbar-width: none; /* Firefox */
+}
+
+#category-tabs::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+#map-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#points-list {
+  max-height: 45vh;          /* evita que a lista tome todo o ecrã no mobile */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Toast (notificação) */
+#toast {
+  max-width: 90vw;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Botões touch-friendly */
+button {
+  min-height: 48px;
+  min-width: 48px;
+  touch-action: manipulation;
+}
+
+/* Media Queries - ajustes finos para mobile */
+@media (max-width: 640px) {
+  h1 { font-size: 2.8rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.4rem; }
+
+  #landing {
+    padding: 1.5rem 1rem;
+  }
+
+  .animate-bounce-once {
+    animation: bounceOnceMobile 1.1s ease-in-out;
+  }
+
+  @keyframes bounceOnceMobile {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+
+  #categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #categories-grid > div {
+    padding: 1.5rem;
+  }
+
+  section#explore .p-6 {
+    padding: 1rem;
+  }
+
+  #map-overlay {
+    left: 1rem;
+    bottom: 5rem;
+    max-width: 85vw;
+    font-size: 0.875rem;
+  }
+
+  #current-category-title {
+    font-size: 1.25rem;
+  }
+
+  button.bg-black, button.bg-blue-600 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 { font-size: 2.4rem; }
+  .text-6xl { font-size: 3.5rem; }
+  div#category-tabs{
+    display: inline-block;
+    text-align: center;
+  }
+  div#category-tabs *{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 2s ease;
+  }
+  button#out{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  
+}
+div#gomap button{
+  padding: 16px;
+  font-size: 12px;
+  border-radius: 10px;
+  border: solid 2px rgba(0, 0, 0, 0.137);
+  transition: all 2s ease;
+}
+
+div#gomap button:hover{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    transition: all 1s ease;
+}
+
+/* Estilo normal das categorias */
+#categories-grid > div {
+    background: white;
+    border: 2px solid #d1d5db;          /* gray-300 */
+    border-radius: 1.5rem;
+    padding: 1.25rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Hover */
+#categories-grid > div:hover {
+    border-color: #9ca3af;              /* gray-500 */
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+/* Quando selecionado */
+#categories-grid > div.selected {
+    background-color: #eff6ff;          /* blue-50 */
+    border-color: #3b82f6;              /* blue-500 */
+    color: #1d4ed8;                     /* blue-700 */
+    font-weight: 600;
+    box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3),
+                0 2px 4px -1px rgba(59, 130, 246, 0.2);
+    transform: scale(1.03);
+}
+
+/* Hover quando já selecionado (opcional, mais feedback) */
+#categories-grid > div.selected:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+}
+
+button#installBtn{
+    display: block;
+    border-radius: 0 0 10px 10px;
+    border: solid 2px rgb(247, 247, 247);
+    font-size: 12px;
+    left: 30%;
+    padding: 8px;
+}

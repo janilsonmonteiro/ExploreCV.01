@@ -1,0 +1,209 @@
+{
+    "eventos": {
+        "Santiago": {
+            "lat": 15.0852627,
+            "lon": -23.6204644,
+            "ilha": "Santiago"
+        },
+        "Discover santiago island": {
+            "lat": 14.9172292,
+            "lon": -23.5093855,
+            "ilha": "Santiago"
+        },
+        "Auditório Nacional Jorge Barbosa": {
+            "lat": 14.9173847,
+            "lon": -23.511975,
+            "ilha": "Santiago"
+        },
+        "Bu Country Tours": {
+            "lat": 14.914698999999999,
+            "lon": -23.526845599999998,
+            "ilha": "Santiago"
+        },
+        "Restaurante Quintal da Música": {
+            "lat": 14.921449599999999,
+            "lon": -23.507074199999998,
+            "ilha": "Santiago"
+        },
+        "Estadio Nacional": {
+            "lat": 14.9757201,
+            "lon": -23.530664599999998,
+            "ilha": "Santiago"
+        },
+        "Kebra Cabana": {
+            "lat": 14.9043911,
+            "lon": -23.517397499999998,
+            "ilha": "Santiago"
+        },
+        "Miss Cabo Verde International": {
+            "lat": 16.0231249,
+            "lon": -23.988647399999998,
+            "ilha": "Santiago"
+        },
+        "Smile Eventos - Cabo Verde": {
+            "lat": 16.7559541,
+            "lon": -22.9386454,
+            "ilha": "Sal"
+        },
+        "Cabo MICE - Weddings, marriage proposals & events in Cabo Verde": {
+            "lat": 16.6003346,
+            "lon": -22.904641899999998,
+            "ilha": "Sal"
+        },
+        "Hilton Cabo Verde Sal Resort": {
+            "lat": 16.5949955,
+            "lon": -22.917014299999998,
+            "ilha": "Sal"
+        },
+        "Monster Truck Cabo Verde": {
+            "lat": 16.615269599999998,
+            "lon": -22.9170965,
+            "ilha": "Sal"
+        },
+        "Tchida Arena": {
+            "lat": 16.7572702,
+            "lon": -22.951756099999997,
+            "ilha": "Sal"
+        },
+        "Centro Comunitário África 70": {
+            "lat": 16.761281099999998,
+            "lon": -22.9357281,
+            "ilha": "Sal"
+        },
+        "Associação Chã de Matias": {
+            "lat": 16.7622231,
+            "lon": -22.940922999999998,
+            "ilha": "Sal"
+        },
+        "Funana casa do musica": {
+            "lat": 16.597250499999998,
+            "lon": -22.9110133,
+            "ilha": "Sal"
+        },
+        "Estádio Marcelo Leitão": {
+            "lat": 16.7531931,
+            "lon": -22.938802,
+            "ilha": "Sal"
+        },
+        "Arman Show Sal": {
+            "lat": 16.5950106,
+            "lon": -22.927335199999998,
+            "ilha": "Sal"
+        },
+        "Anfiteatro do Melia Dunas": {
+            "lat": 16.6155542,
+            "lon": -22.920562999999998,
+            "ilha": "Sal"
+        },
+        "Bikini Beach Club": {
+            "lat": 16.6145604,
+            "lon": -22.9291071,
+            "ilha": "Sal"
+        },
+        "TUI FutureShaper House": {
+            "lat": 16.5981579,
+            "lon": -22.906191699999997,
+            "ilha": "Sal"
+        },
+        "No Limits Adventure Cape Verde": {
+            "lat": 16.597472,
+            "lon": -22.915553799999998,
+            "ilha": "Sal"
+        },
+        "Josy‘s bar": {
+            "lat": 16.5980971,
+            "lon": -22.9033415,
+            "ilha": "Sal"
+        },
+        "Salinas de Pedra de Lume": {
+            "lat": 16.7682648,
+            "lon": -22.8964426,
+            "ilha": "Sal"
+        },
+        "Salao Car": {
+            "lat": 16.755954,
+            "lon": -22.938645299999997,
+            "ilha": "Sal"
+        },
+        "x eventos": {
+            "lat": 16.598202999999998,
+            "lon": -22.9156297,
+            "ilha": "Sal"
+        },
+        "Boa Vista": {
+            "lat": 16.0950108,
+            "lon": -22.807833499999997,
+            "ilha": "Boa Vista"
+        },
+        "CMPN": {
+            "lat": 17.076428099999998,
+            "lon": -25.1340596,
+            "ilha": "Santo Antão"
+        },
+        "Ilha de Santo Antão": {
+            "lat": 17.091237,
+            "lon": -25.141484,
+            "ilha": "Santo Antão"
+        },
+        "Aldeia Cultural \"Nos Reiz\"": {
+            "lat": 17.019054699999998,
+            "lon": -25.0690609,
+            "ilha": "Santo Antão"
+        },
+        "Cabo Verde Beach Sport Resort": {
+            "lat": 17.0293043,
+            "lon": -25.0340557,
+            "ilha": "Santo Antão"
+        },
+        "Estádio Municipal": {
+            "lat": 17.021275,
+            "lon": -25.076814,
+            "ilha": "Santo Antão"
+        },
+        "Losnas Ribeira grande": {
+            "lat": 17.137359,
+            "lon": -25.1429348,
+            "ilha": "Santo Antão"
+        },
+        "Electro Som": {
+            "lat": 17.1799675,
+            "lon": -25.0657185,
+            "ilha": "Santo Antão"
+        },
+        "Recanto da Dinha": {
+            "lat": 16.8514653,
+            "lon": -24.975855,
+            "ilha": "Santo Antão"
+        },
+        "RD Eventos electricidade e energias renováveis em Porto Novo": {
+            "lat": 17.0225076,
+            "lon": -25.0716491,
+            "ilha": "Santo Antão"
+        },
+        "Marrador": {
+            "lat": 17.1459831,
+            "lon": -25.0690949,
+            "ilha": "Santo Antão"
+        },
+        "A Caminhada Maio Cabo Verde": {
+            "lat": 15.1818821,
+            "lon": -23.223333999999998,
+            "ilha": "Maio"
+        },
+        "Big Game Maio": {
+            "lat": 15.1412032,
+            "lon": -23.2126441,
+            "ilha": "Maio"
+        },
+        "Campo Tropikal": {
+            "lat": 15.2253226,
+            "lon": -23.1827124,
+            "ilha": "Maio"
+        },
+        "Estádio municipal do Maio": {
+            "lat": 15.137002299999999,
+            "lon": -23.205170199999998,
+            "ilha": "Maio"
+        }
+    }
+}
